@@ -1,0 +1,3 @@
+xlua.hotfix(CS.GenshinImpactMovement.VersionPrinter, 'Print', nil)
+xlua.hotfix(CS.GenshinImpactMovement.InsNPC, 'Start', nil)
+xlua.hotfix(CS.GenshinImpactMovement.InsNPC, 'Update', nil)

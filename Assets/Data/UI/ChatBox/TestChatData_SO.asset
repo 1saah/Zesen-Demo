@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557a167ca6c71d84ba413851c5d4bec9, type: 3}
+  m_Name: TestChatData_SO
+  m_EditorClassIdentifier: 
+  <chatPieces>k__BackingField:
+  - <chatName>k__BackingField: Zesen
+    <chatContent>k__BackingField: Hi! Welcom to the testing zone, Can you help me?
+    <chatNumber>k__BackingField: 0
+    <optionPieceList>k__BackingField:
+    - <optionContent>k__BackingField: Yes
+      <optionTarget>k__BackingField: 1
+      <isTakingTask>k__BackingField: 1
+      <Quest_SO>k__BackingField: {fileID: 11400000, guid: 302bfedf0f33e5045ba252c51193b7f4, type: 2}
+  - <chatName>k__BackingField: Zesen
+    <chatContent>k__BackingField: This is Zesen's demo which showing his Unity skills.
+    <chatNumber>k__BackingField: 1
+    <optionPieceList>k__BackingField: []
+  - <chatName>k__BackingField: Zesen
+    <chatContent>k__BackingField: Go ahead! Bye!
+    <chatNumber>k__BackingField: 2
+    <optionPieceList>k__BackingField: []

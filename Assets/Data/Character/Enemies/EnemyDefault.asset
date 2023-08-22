@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052773ea79326aa4cba3078e14bb1e36, type: 3}
+  m_Name: EnemyDefault
+  m_EditorClassIdentifier: 
+  <EMovementData>k__BackingField:
+    <EIdleData>k__BackingField:
+      <EPatrolData>k__BackingField:
+        <PatrolSpeedMutifier>k__BackingField: 2
+        <PatrolRadius>k__BackingField: 10
+        <StoppingDistance>k__BackingField: 0.1
+      <IdlePatrolWaittingTime>k__BackingField: 5
+    <EMovingData>k__BackingField:
+      <EBackData>k__BackingField:
+        <BackSpeedMutifier>k__BackingField: 2
+        <StoppingDistance>k__BackingField: 0.1
+      <EChasingData>k__BackingField:
+        <ChasingSpeedMutifier>k__BackingField: 5
+        <StoppingDistance>k__BackingField: 1
+    <EFightData>k__BackingField:
+      <fightInterval>k__BackingField: 1
+    <chasingDis>k__BackingField: 10
+    <fightDis>k__BackingField: 3
+    <stoppingDis>k__BackingField: 1

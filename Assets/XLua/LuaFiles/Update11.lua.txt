@@ -1,0 +1,19 @@
+print("Enter Update11.lua.txt")
+
+xlua.hotfix(CS.GenshinImpactMovement.VersionPrinter, 'Print', function(self)
+    CS.UnityEngine.Debug.Log("Version 1.1")
+end)
+
+xlua.hotfix(CS.GenshinImpactMovement.InsNPC, 'Start', function(self)
+    self.hw:LoadResource('TempNPC', 'npcs.tempnpc')
+end)
+
+xlua.hotfix(CS.GenshinImpactMovement.InsNPC, 'Update', function(self)
+    if(self.oneTime == true and self.hw:GetPrefab('TempNPC') ~= nil) then
+        CS.UnityEngine.Object.Instantiate(self.hw:GetPrefab('TempNPC'))
+        self.oneTime = false
+    end
+end)
+
+
+
